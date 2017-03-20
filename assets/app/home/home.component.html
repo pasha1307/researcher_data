@@ -1,0 +1,39 @@
+<div class="home">
+    <div class="jumbotron" style="margin-top: -33px; padding: 40px 0 37px 20px;">
+        <h2 class="display-2" >
+            Sorokiniana <span class="text-muted" >continues...</span>
+        </h2>
+        <img src="/images/pas3.png" alt="" height="230px" class="rounded float-right" style="margin-top: -125px;">
+    </div>
+
+    <div class="container"><h3>Scholars:</h3>
+        <div class="row">
+            <div class="col-sm-4">
+                <p (click)="onSelect(scholar)" *ngFor="let scholar of scholars" class="thelist"
+                   [class.selected]="scholar == selectedScholar">
+                    {{scholar.name}} ({{scholar.country}})
+                </p>
+
+            </div>
+            <div class="col-sm-7" *ngIf="selectedScholar">
+                <div class="card card-outline-warning mb-3">
+                    <div class="card-block" style="color: cornsilk">
+                        <h3 class="text-center">{{selectedScholar.name}}, {{selectedScholar.place}}</h3>
+                        <span>{{selectedScholar.position}}</span>
+                        <p class="card-text">Link to Sorokin: {{selectedScholar.detail}}</p>
+                        <p class="card-text">About: {{selectedScholar.misc}}</p>
+                        <blockquote class="card-blockquote">
+                            <p>{{selectedScholar.contact}}</p>
+                            <footer>Someone famous in <cite title="Source Title">{{selectedScholar.contact}}</cite></footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6" *ngIf="!selectedScholar">
+                <h3>Some other text before clicked</h3>
+            </div>
+        </div>
+
+
+    </div>
+</div>

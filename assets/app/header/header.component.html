@@ -1,0 +1,27 @@
+<nav class="navbar fixed-top navbar-toggleable-sm navbar-inverse bg-inverse">
+    <!--<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+        <!--<span class="navbar-toggler-icon"></span>-->
+    <!--</button>-->
+    <a class="navbar-brand" [routerLink]="['/home']" style="padding: 0; margin: 0 30px 0 0">
+        <img src="/images/brand.png" width="50" height="50" alt="" id="brand-image">
+    </a>
+
+    <!--<div class="collapse navbar-collapse">-->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" [routerLink]="['/home']">Scholars <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item" routerLinkActive="active" *ngIf="isLogged()">
+                <a class="nav-link" [routerLink]="['/scholars']">Add and Edit</a>
+            </li>
+
+        </ul>
+        <div>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item" routerLinkActive="active">
+                    <a class="nav-link" [routerLink]="['/users']">Users</a>
+                </li>
+            </ul>
+        </div>
+    <!--</div>-->
+</nav>

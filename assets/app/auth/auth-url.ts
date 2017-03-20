@@ -1,0 +1,1 @@
+export const AUTH_URL = 'https://git.heroku.com/ang2express.git';

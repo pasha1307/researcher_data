@@ -1,0 +1,16 @@
+<div class="col-md-6 offset-md-3">
+    <h2>Auth Component</h2>
+    <ul class="nav nav-tabs">
+        <li class="nav-item"  >
+            <a class="nav-link" routerLinkActive="active" [routerLink]="['signup']">Register</a>
+        </li>
+        <li class="nav-item" >
+            <a class="nav-link" routerLinkActive="active" [routerLink]="['login']">Login</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" routerLinkActive="active" [routerLink]="['logout']" *ngIf="hasToken()">Logout</a>
+        </li>
+    </ul>
+    <br><br>
+    <router-outlet></router-outlet>
+</div>

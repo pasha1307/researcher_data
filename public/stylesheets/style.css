@@ -1,0 +1,47 @@
+body {
+  /*padding: 50px; Roboto+Slab:100*/
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  /*font-weight:300;*/
+  background-color: gainsboro;
+}
+.home .card-text {
+  font-weight: 100;
+  font-size: 0.9em;
+}
+
+.home h3 {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  color: aliceblue;
+}
+.home p.thelist {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  color: cornsilk;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin: 0;
+}
+
+.home p.thelist:hover {
+  color: goldenrod;
+  cursor: pointer;
+}
+.selected {
+  color: aliceblue!important;
+}
+
+
+a {
+  color: #00B7FF;
+}
+.app-shell {
+  margin-top: 95px;
+}
+h2  {
+  font-weight: 100;
+}
+#brand-image {
+  padding: 0;
+  margin: 0;
+}
