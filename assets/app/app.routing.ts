@@ -2,7 +2,7 @@ import {Routes, RouterModule} from "@angular/router";
 import {HomeComponent} from "./home/home.component";
 import {AuthComponent} from "./auth/auth-shell.component";
 import {ScholarShellComponent} from "./scholar/scholar-shell.component";
-import {AUTH_ROUTES} from "./auth/auth.routing";
+// import {AUTH_ROUTES} from "./auth/auth.routing";
 const APP_ROUTES: Routes = [
     {path: '', component: HomeComponent},
     {path: 'home', component: HomeComponent},
