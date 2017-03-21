@@ -10,6 +10,7 @@ import {error} from "util";
 })
 export class ScholarFormComponent implements OnInit {
     scholar: Scholar;
+    title:string = 'Add new record';
     constructor(private scholarService: ScholarService) {}
     onSubmit(form: NgForm) {
         if(this.scholar) {
@@ -21,6 +22,7 @@ export class ScholarFormComponent implements OnInit {
                 this.scholar.misc = form.value.misc;
                 this.scholar.country = form.value.country
             this.scholarService.updateScholar(this.scholar).subscribe( result => console.log(result) )
+            this.title = 'Edit Record'
         }
         const scholar = new Scholar(
             form.value.name,
