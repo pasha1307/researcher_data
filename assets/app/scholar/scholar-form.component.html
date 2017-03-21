@@ -3,31 +3,31 @@
         <div class="form-group"><label>Name</label>
             <input type="text" class="form-control"
                    [ngModel]="scholar?.name"
-                    name="name">
+                    name="name" required>
         </div>
         <div class="form-group"><label>Position</label>
             <input type="text" class="form-control"
                    [ngModel]="scholar?.position"
-                    name="position">
+                    name="position" required>
         </div>
         <div class="form-group"><label>Place</label>
             <input type="text" class="form-control"
                    [ngModel]="scholar?.place"
-                    name="place">
+                    name="place" required>
         </div>
     <div class="row">
         <div class="col-sm-8">
             <div class="form-group"><label>Contact</label>
                 <input type="email" class="form-control"
                        [ngModel]="scholar?.contact"
-                       name="contact">
+                       name="contact" required>
             </div>
         </div>
         <div class="col-sm-4">
             <div class="form-group"><label>Country</label>
                 <input type="text" class="form-control"
                        [ngModel]="scholar?.country"
-                       name="country">
+                       name="country" required>
             </div>
         </div>
     </div>
@@ -35,7 +35,7 @@
         <div class="form-group"><label>Detail</label>
             <textarea class="form-control"
                       [ngModel]="scholar?.detail"
-                      name="detail"></textarea>
+                      name="detail" required></textarea>
         </div>
         <div class="form-group"><label>Misc</label>
             <textarea class="form-control"
@@ -45,4 +45,7 @@
         <div class="form-group">
             <button class="btn btn-outline-primary" type="submit" [disabled]="!f.valid">Submit</button>
         </div>
+    <div class="form-group">
+        <button class="btn btn-outline-danger" (click)="onCancel()">Cancel</button>
+    </div>
 </form>

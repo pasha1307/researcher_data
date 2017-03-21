@@ -9,8 +9,9 @@ import {error} from "util";
     templateUrl: './scholar-form.component.html'
 })
 export class ScholarFormComponent implements OnInit {
+    form: NgForm;
     scholar: Scholar;
-    title:string;
+    title:string = 'Add New Record';
     constructor(private scholarService: ScholarService) {}
     onSubmit(form: NgForm) {
         if(this.scholar) {
@@ -37,6 +38,9 @@ export class ScholarFormComponent implements OnInit {
             error => console.error(error)
         )
         form.resetForm();
+    }
+    onCancel() {
+        this.form.resetForm();
     }
     ngOnInit() {
         this.scholarService.isEdited.subscribe((scholar: Scholar) => {
