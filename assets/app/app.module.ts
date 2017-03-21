@@ -13,6 +13,7 @@ import {ScholarListComponent} from "./scholar/scholar-list.component";
 import {ScholarItemComponent} from "./scholar/scholar-item.component";
 import {ScholarService} from "./scholar/scholar.service";
 import {AuthComponent} from "./auth/auth-shell.component";
+import {Ng2FilterPipeModule} from "ng2-filter-pipe";
 
 @NgModule({
     declarations: [
@@ -25,7 +26,7 @@ import {AuthComponent} from "./auth/auth-shell.component";
         ScholarListComponent,
         ScholarItemComponent
     ],
-    imports: [BrowserModule, routing, FormsModule, ReactiveFormsModule, HttpModule],
+    imports: [BrowserModule, routing, FormsModule, ReactiveFormsModule, HttpModule, Ng2FilterPipeModule],
     providers: [AuthService, ScholarService ],
     bootstrap: [AppComponent]
 })
