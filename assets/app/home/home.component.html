@@ -6,7 +6,7 @@
         <img src="/images/pas3.png" alt="" height="230px" class="rounded float-right" style="margin-top: -122px; border-radius: 40%">
     </div>
 
-    <div class="container"><h3>Scholars:</h3>
+    <div class="container"><h3>Scholars:</h3><span style="color: rgba(255,255,255,.6)">(click to see details)</span>
         <div class="row">
             <div class="col-sm-4">
                 <p (click)="onSelect(scholar)" *ngFor="let scholar of scholars" class="thelist"
@@ -22,14 +22,20 @@
                         <span class="position">{{selectedScholar.position}}</span>
                         <p class="card-text">Contributions: {{selectedScholar.detail}}</p>
                         <p class="card-text">About: {{selectedScholar.misc}}</p>
-                        <blockquote class="card-blockquote">
-                            <footer>Contact Email: <cite title="Source Title">{{selectedScholar.contact}}</cite></footer>
-                        </blockquote>
+                        >
                     </div>
                 </div>
             </div>
             <div class="col-sm-6" *ngIf="!selectedScholar">
-                <h3>Click name to see details</h3>
+                <p style="color: aliceblue; font-weight: 300;">
+                "There is no question that Sorokin was a sociological giant, one whose pioneer studies
+                The Sociology of Revolution, Social Mobility, Contemporary Sociological Theories,
+                and of course, Social and Cultural Dynamics, to name just the most obvious provided
+                basic frames for major sociological fields. But although an academic professor,
+                he was also a prophet, one who felt his responsibility to decry certain conditions and behavior patterns of modernity,
+                to warn of their consequences, and to seek or prepare us to go beyond the normative crisis of late modernity"
+                    <cite title="Source Title"> - Edward A. Tiryakian</cite>
+            </p>
             </div>
         </div>
 

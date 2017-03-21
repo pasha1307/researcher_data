@@ -1,6 +1,7 @@
 import {Component, OnInit} from "@angular/core";
 import {Scholar} from "../scholar/scholar.model";
 import {ScholarService} from "../scholar/scholar.service";
+
 @Component({
     selector: 'app-home',
     templateUrl: './home.component.html',
@@ -13,9 +14,10 @@ import {ScholarService} from "../scholar/scholar.service";
 })
 export class HomeComponent implements OnInit {
     selectedScholar: Scholar;
-
     scholars: Scholar[] = [];
+
     constructor(private scholarService: ScholarService) {}
+
     onSelect(scholar: Scholar) {
         this.selectedScholar = scholar;
     }

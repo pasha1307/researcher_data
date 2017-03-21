@@ -1,15 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from "./app.component";
 import {routing} from "./app.routing";
 import {HomeComponent} from "./home/home.component";
 import {ScholarShellComponent} from "./scholar/scholar-shell.component";
 import {HeaderComponent} from "./header/header.component";
-// import {SignupComponent} from "./auth/signup.component";
-// import {LoginComponent} from "./auth/login.component";
-// import {AuthComponent} from "./auth/auth-shell.component";
-// import {LogoutComponent} from "./auth/logout";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {AuthService} from "./auth/auth.service";
 import {HttpModule} from "@angular/http";
@@ -31,7 +26,7 @@ import {AuthComponent} from "./auth/auth-shell.component";
         ScholarItemComponent
     ],
     imports: [BrowserModule, routing, FormsModule, ReactiveFormsModule, HttpModule],
-    providers: [AuthService, ScholarService],
+    providers: [AuthService, ScholarService ],
     bootstrap: [AppComponent]
 })
 export class AppModule {
