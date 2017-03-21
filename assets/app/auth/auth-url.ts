@@ -1,1 +1,2 @@
-export const AUTH_URL = 'https://git.heroku.com/ang2express.git';
+// export const AUTH_URL = 'http://localhost:3000';
+export const AUTH_URL = 'https://ang2express.herokuapp.com';
