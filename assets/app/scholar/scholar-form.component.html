@@ -32,20 +32,20 @@
         </div>
     </div>
 
-        <div class="form-group"><label>Detail</label>
+        <div class="form-group"><label>Contributions</label>
             <textarea class="form-control"
                       [ngModel]="scholar?.detail"
                       name="detail" required></textarea>
         </div>
-        <div class="form-group"><label>Misc</label>
+        <div class="form-group"><label>More Details</label>
             <textarea class="form-control"
                       [ngModel]="scholar?.misc"
             name="misc"></textarea>
         </div>
-        <div class="form-group">
-            <button class="btn btn-outline-primary" type="submit" [disabled]="!f.valid">Submit</button>
-        </div>
+    <div class="row justify-content-between">
     <div class="form-group">
+        <button class="btn btn-outline-primary" type="submit" [disabled]="!f.valid">Submit</button>
         <button class="btn btn-outline-danger" (click)="onCancel()">Cancel</button>
+    </div>
     </div>
 </form>

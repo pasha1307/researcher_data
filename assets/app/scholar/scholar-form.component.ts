@@ -23,6 +23,7 @@ export class ScholarFormComponent implements OnInit {
                 this.scholar.misc = form.value.misc;
                 this.scholar.country = form.value.country;
             this.scholarService.updateScholar(this.scholar).subscribe( result => console.log(result) )
+            form.resetForm();
         }
         const scholar = new Scholar(
             form.value.name,

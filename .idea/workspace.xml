@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62f2422d-64d3-4dbd-bbe6-e72fe1bbe29e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/0.b837b938cd42ee5206b8.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app/1.b837b938cd42ee5206b8.chunk.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/scholar/scholar-form.component.html" afterPath="$PROJECT_DIR$/assets/app/scholar/scholar-form.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/scholar/scholar-form.component.ts" afterPath="$PROJECT_DIR$/assets/app/scholar/scholar-form.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/bundle.js" afterPath="$PROJECT_DIR$/public/js/app/bundle.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -113,21 +109,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scholar-form.component.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="scholar-form.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/scholar/scholar-form.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="44" lean-forward="false" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+            <state relative-caret-position="258">
+              <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scholar-form.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scholar-form.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/scholar/scholar-form.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+            <state relative-caret-position="246">
+              <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -183,8 +179,8 @@
         <option value="$PROJECT_DIR$/assets/app/app-url.ts" />
         <option value="$PROJECT_DIR$/assets/app/auth/auth-shell.component.html" />
         <option value="$PROJECT_DIR$/assets/app/scholar/scholar-item.component.ts" />
-        <option value="$PROJECT_DIR$/assets/app/scholar/scholar-form.component.html" />
         <option value="$PROJECT_DIR$/assets/app/scholar/scholar-form.component.ts" />
+        <option value="$PROJECT_DIR$/assets/app/scholar/scholar-form.component.html" />
       </list>
     </option>
   </component>
@@ -546,12 +542,12 @@
       <workItem from="1490013863863" duration="16968000" />
       <workItem from="1490054691835" duration="22000" />
       <workItem from="1490054739055" duration="31000" />
-      <workItem from="1490054781260" duration="3011000" />
+      <workItem from="1490054781260" duration="3858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76971000" />
+    <option name="totallyTimeSpent" value="77818000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="38" width="1550" height="932" extended-state="0" />
@@ -948,18 +944,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/scholar/scholar-form.component.html">
+    <entry file="file://$PROJECT_DIR$/assets/app/scholar/scholar-form.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="44" lean-forward="false" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+        <state relative-caret-position="246">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/scholar/scholar-form.component.ts">
+    <entry file="file://$PROJECT_DIR$/assets/app/scholar/scholar-form.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        <state relative-caret-position="258">
+          <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
           <folding />
         </state>
       </provider>
