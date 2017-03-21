@@ -1,1 +1,1 @@
-export const APP_URL = 'https://git.heroku.com/ang2express.git';
+export const APP_URL = 'https://ang2express.herokuapp.com';
