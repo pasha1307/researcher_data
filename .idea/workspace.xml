@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62f2422d-64d3-4dbd-bbe6-e72fe1bbe29e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/scholar/scholar-form.component.html" afterPath="$PROJECT_DIR$/assets/app/scholar/scholar-form.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/scholar/scholar-form.component.ts" afterPath="$PROJECT_DIR$/assets/app/scholar/scholar-form.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/home/home.component.ts" afterPath="$PROJECT_DIR$/assets/app/home/home.component.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,27 +43,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.component.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/home/home.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/home/home.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,11 +95,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scholar-form.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scholar-form.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/scholar/scholar-form.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="258">
-              <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+              <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -157,13 +153,11 @@
         <option value="$PROJECT_DIR$/assets/app/app.component.html" />
         <option value="$PROJECT_DIR$/assets/app/app.component.css" />
         <option value="$PROJECT_DIR$/views/index.hbs" />
-        <option value="$PROJECT_DIR$/assets/app/home/home.component.ts" />
         <option value="$PROJECT_DIR$/models/scholar.js" />
         <option value="$PROJECT_DIR$/assets/app/scholar/scholar.model.ts" />
         <option value="$PROJECT_DIR$/routes/scholars.js" />
         <option value="$PROJECT_DIR$/assets/app/scholar/scholar.service.ts" />
         <option value="$PROJECT_DIR$/assets/app/scholar/scholar-shell.component.ts" />
-        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/assets/app/header/header.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/auth/login.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/auth/auth-shell.component.ts" />
@@ -181,6 +175,8 @@
         <option value="$PROJECT_DIR$/assets/app/scholar/scholar-item.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/scholar/scholar-form.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/scholar/scholar-form.component.html" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/assets/app/home/home.component.ts" />
       </list>
     </option>
   </component>
@@ -542,12 +538,12 @@
       <workItem from="1490013863863" duration="16968000" />
       <workItem from="1490054691835" duration="22000" />
       <workItem from="1490054739055" duration="31000" />
-      <workItem from="1490054781260" duration="3858000" />
+      <workItem from="1490054781260" duration="4269000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77818000" />
+    <option name="totallyTimeSpent" value="78229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="38" width="1550" height="932" extended-state="0" />
@@ -668,13 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -864,16 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/home/home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/home/home.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -955,8 +934,26 @@
     <entry file="file://$PROJECT_DIR$/assets/app/scholar/scholar-form.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
-          <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+          <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

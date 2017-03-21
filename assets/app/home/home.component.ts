@@ -8,6 +8,7 @@ import {ScholarService} from "../scholar/scholar.service";
     height: 100vh;
     width: 100%;
     background: rgba(0,0,0,.7);
+    overflow-y: auto;
     }`]
 })
 export class HomeComponent implements OnInit {
