@@ -8,8 +8,10 @@ import {ScholarService} from "./scholar.service";
 export class ScholarItemComponent {
   constructor(private scholarService: ScholarService) {}
     @Input() scholar: Scholar;
+    @Input() title:string;
   onEdit() {
-    this.scholarService.editScholar(this.scholar)
+    this.scholarService.editScholar(this.scholar);
+    this.title = 'Edit Record'
   }
   onDelete() {
     this.scholarService.deleteScholar(this.scholar).subscribe(
