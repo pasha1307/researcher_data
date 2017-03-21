@@ -39,6 +39,9 @@ export class ScholarFormComponent implements OnInit {
         form.resetForm();
     }
     ngOnInit() {
-        this.scholarService.isEdited.subscribe((scholar: Scholar) => this.scholar=scholar)
+        this.scholarService.isEdited.subscribe((scholar: Scholar) => {
+            this.scholar=scholar
+            this.title = 'Edit Record'
+        })
     }
 }

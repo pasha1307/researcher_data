@@ -5,7 +5,7 @@
             <a class="nav-link" routerLinkActive="active" [routerLink]="['signup']">Register</a>
         </li>
         <li class="nav-item" >
-            <a class="nav-link" routerLinkActive="active" [routerLink]="['login']">Login</a>
+            <a class="nav-link" routerLinkActive="active" [routerLink]="['login']"*ngIf="!hasToken()">Login</a>
         </li>
         <li class="nav-item" routerLinkActive="active">
             <a class="nav-link" routerLinkActive="active" [routerLink]="['logout']" *ngIf="hasToken()">Logout</a>
