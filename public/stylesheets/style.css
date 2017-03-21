@@ -5,10 +5,13 @@ body {
   background-color: gainsboro;
 }
 .home .card-text {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 0.9em;
 }
-
+.home .position {
+  font-size: 1em;
+  color: aliceblue;
+}
 .home h3 {
   font-family: 'Open Sans';
   font-weight: 400;
