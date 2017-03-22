@@ -30,10 +30,11 @@
                         <span class="position">{{selectedScholar.position}}</span>
                         <p class="card-text">Contributions: {{selectedScholar.detail}}</p>
                         <p class="card-text">About: {{selectedScholar.misc}}</p>
+                        <blockquote class="card-blockquote" style="color: cornsilk">
+                            <footer>Contact Info: <cite title="Source Title">{{selectedScholar.contact}}</cite></footer>
+                        </blockquote>
                     </div>
-                    <blockquote class="card-blockquote">
-                        <footer>Contact Info: <cite title="Source Title">{{selectedScholar.contact}}</cite></footer>
-                    </blockquote>
+
                 </div>
             </div>
             <div class="col-sm-6" *ngIf="!selectedScholar">
