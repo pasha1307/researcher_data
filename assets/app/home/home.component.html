@@ -6,8 +6,19 @@
         <img src="/images/pas3.png" alt="" height="230px" class="rounded float-right" style="margin-top: -122px; border-radius: 40%">
     </div>
 
-    <div class="container"><h3>Scholars:</h3><span style="color: rgba(255,255,255,.6)">(click to see details)</span>
-        <div class="form-group"><input type="search" [(ngModel)]="userFilter.name" class="form-control" placeholder="type name"></div>
+    <div class="container"><h3>Scholars:</h3>
+        <span style="color: rgba(255,255,255,.6)">Search By..</span>
+        <div class="row">
+                <div class="form-group">
+                    <label class="col-sm-2">Name</label>
+                    <input type="search" [(ngModel)]="userFilter.name" class="form-control col-sm-4" placeholder="type name">
+                </div>
+            <div class="form-group">
+                <label class="col-sm-2">Country</label>
+                <input type="search" [(ngModel)]="userFilter.name" class="form-control col-sm-4" placeholder="type name">
+            </div>
+        </div>
+
         <div class="row">
             <div class="col-sm-4">
                 <p (click)="onSelect(scholar)" *ngFor="let scholar of scholars |filterBy: userFilter " class="thelist"
@@ -36,6 +47,7 @@
                 to warn of their consequences, and to seek or prepare us to go beyond the normative crisis of late modernity"
                     <cite title="Source Title"> - Edward A. Tiryakian</cite>
             </p>
+                <span style="color: rgba(255,255,255,.6)">(click to see details)</span>
             </div>
         </div>
 

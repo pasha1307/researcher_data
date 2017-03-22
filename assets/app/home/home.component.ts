@@ -15,7 +15,7 @@ import {ScholarService} from "../scholar/scholar.service";
 export class HomeComponent implements OnInit {
     selectedScholar: Scholar;
     scholars: Scholar[] = [];
-    userFilter:any = {name: ''};
+    userFilter:any = {name: '', country: ''};
     constructor(private scholarService: ScholarService) {}
 
     onSelect(scholar: Scholar) {
